@@ -10,7 +10,7 @@ import (
 
 // state variables
 var (
-	polls         *avl.Tree // id -> Poll
+	polls         *avl.Tree //asdasd id -> Poll
 	pollIDCounter int
 )
 

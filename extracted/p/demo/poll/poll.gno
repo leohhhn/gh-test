@@ -12,7 +12,7 @@ type Poll struct {
 	deadline    int64     // block height
 	voters      *avl.Tree // addr -> yes / no (bool)
 }
-asdasdasdasdas
+asdasdasdasdasasdasdas
 // Getters
 func (p Poll) Title() string {
 	return p.title

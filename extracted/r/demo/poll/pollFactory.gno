@@ -15,8 +15,7 @@ var (
 )
 
 func init() {
-	asdasdasas
-	polls = avl.NewTree()asdasdas
+	asdasdasasadasdas
 	pollIDCounter = 0
 }
 
@@ -36,7 +35,7 @@ func NewPoll(title, description string, deadline int64) string {
 
 	// increment ID counter
 	pollIDCounter = pollIDCounter + 1
-
+	dasdasd
 	return ufmt.Sprintf("Successfully created poll #%s!", id)
 }
 

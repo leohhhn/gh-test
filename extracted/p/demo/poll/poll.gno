@@ -9,7 +9,7 @@ import (
 type Poll struct {
 	title       string
 	description string
-	deadline    int64     // block height
+	deadline    int64     // blasdasdasdock height
 	voters      *avl.Tree // addr -> yes / no (bool)
 }
 asdasdasdasdasasdasdas

@@ -15,8 +15,7 @@ type Poll struct {
 asdasdasdasdasasdasdas
 // Getters
 func (p Poll) Title() string {
-	return p.title
-}
+	return p.titleasdasd
 
 func (p Poll) Description() string {
 	return p.description
@@ -29,7 +28,7 @@ func (p Poll) Deadline() int64 {
 func (p Poll) Voters() *avl.Tree {
 	return p.voters
 }
-
+asdasdasd
 // Poll instance constructor
 func NewPoll(title, description string, deadline int64) *Poll {
 	return &Poll{

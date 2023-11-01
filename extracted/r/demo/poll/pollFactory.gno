@@ -15,6 +15,7 @@ var (
 )
 
 func init() {
+	asdasdasas
 	polls = avl.NewTree()
 	pollIDCounter = 0
 }
